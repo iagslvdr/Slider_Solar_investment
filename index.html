@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="container-valorinvest">
+        <div class="texto1">
+            <p>insira o valor a ser investido</p>
+        </div>
+        <div class="calculadora-container">
+            <div class="slider-container">
+                <input type="range" min="3000" max="30000" step="100" value="16500" class="rangeCalculadora"
+                    id="rangestyle">
+            </div>
+            <div class="valorinvestido-container">
+                <p class="estilop">R$</p>
+                <input type="text" class="valorinvestido" value="16500" maxlength="5">
+            </div>
+        </div>
+        <div class="retorno-container">
+            <p >Seu Retorno em 1 ano: <div class="valorRetornado">R$<span class="retorno">18150</span>,00</div></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
